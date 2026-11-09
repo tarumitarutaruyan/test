@@ -1,1 +1,204 @@
 
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>進捗状況</title>
+
+  <!-- 数式表示 MathJax -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['\\(', '\\)']],
+        displayMath: [['\\[', '\\]']]
+      }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #f7f7f5;
+      color: #333;
+      line-height: 1.8;
+    }
+
+    header {
+      background: #263747;
+      color: white;
+      padding: 35px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: Georgia, serif;
+      font-weight: normal;
+      margin: 0;
+      font-size: 32px;
+    }
+
+    nav {
+      background: #34495e;
+      text-align: center;
+      padding: 12px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 850px;
+      margin: 35px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      background: white;
+      padding: 25px;
+      margin-bottom: 25px;
+      border: 1px solid #e5e5e5;
+      border-radius: 5px;
+    }
+
+    h2 {
+      color: #34495e;
+      font-family: Georgia, serif;
+      font-weight: normal;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 8px;
+    }
+
+    .progress-item {
+      padding: 18px 0;
+      border-bottom: 1px solid #eee;
+    }
+
+    .progress-item:last-child {
+      border-bottom: none;
+    }
+
+    .progress-title {
+      font-size: 18px;
+      font-weight: bold;
+      color: #34495e;
+      margin: 0;
+    }
+
+    .date {
+      color: #888;
+      font-size: 13px;
+      margin: 4px 0 8px;
+    }
+
+    .comment {
+      margin: 8px 0;
+    }
+
+    .drive-link {
+      display: inline-block;
+      margin-top: 5px;
+      color: #426b91;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .drive-link:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #888;
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>垂水駅へ</h1>
+  <p>信州松本より</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="progress.html">進捗状況</a>
+</nav>
+
+<main>
+
+  <section>
+    <h2>Progress</h2>
+    <p>
+      現在取り組んでいる数学の勉強・研究の進捗をまとめています。
+    </p>
+
+    <!-- 進捗項目 1 -->
+    <div class="progress-item">
+      <p class="progress-title">Diffeology</p>
+      <p class="date">最終更新：2026.11.09</p>
+      <p class="comment">
+        微分ベクトル空間の位相的性質について考察中。
+      </p>
+      <a class="drive-link"
+         href="https://drive.google.com/"
+         target="_blank"
+         rel="noopener noreferrer">
+        Google Drive を開く →
+      </a>
+    </div>
+
+    <!-- 進捗項目 2 -->
+    <div class="progress-item">
+      <p class="progress-title">Homological Algebra</p>
+      <p class="date">最終更新：2026.11.09</p>
+      <p class="comment">
+        ホモロジー代数の基礎事項を整理中。
+      </p>
+      <a class="drive-link"
+         href="https://drive.google.com/"
+         target="_blank"
+         rel="noopener noreferrer">
+        Google Drive を開く →
+      </a>
+    </div>
+
+    <!-- 進捗項目 3 -->
+    <div class="progress-item">
+      <p class="progress-title">Category Theory</p>
+      <p class="date">最終更新：2026.11.09</p>
+      <p class="comment">
+        完全圏・準アーベル圏などについて勉強中。
+      </p>
+      <a class="drive-link"
+         href="https://drive.google.com/"
+         target="_blank"
+         rel="noopener noreferrer">
+        Google Drive を開く →
+      </a>
+    </div>
+
+  </section>
+
+</main>
+
+<footer>
+  Mathematics Personal Website
+</footer>
+
+</body>
+</html>
